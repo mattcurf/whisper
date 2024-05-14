@@ -6,6 +6,7 @@ import warnings
 from typing import List, Optional, Union
 
 import torch
+import intel_extension_for_pytorch
 from tqdm import tqdm
 
 from .audio import load_audio, log_mel_spectrogram, pad_or_trim
